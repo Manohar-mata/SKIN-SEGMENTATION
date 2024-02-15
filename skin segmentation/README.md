@@ -23,8 +23,8 @@
  - Finally the major challenge I have faced and not at done with that challenges is "the skin related colors like red,brown,yellow are also detecting in place of skin"
 
 <p float="left">
-  <img src="https://github.com/Raju-Munagala/skin/blob/main/208T1A05F9.jpg" width="33%" />
-  <img src="https://github.com/Raju-Munagala/skin/blob/main/d4104c73-d7b1-455d-922d-56c2e16df41c.png" width="33%" />
+  <img src="https://github.com/Manohar-mata/SKIN-SEGMENTATION/blob/main/skin%20segmentation/docs/208T1A05F9.jpg" />
+  <img src="" />
 </p>
 
 
