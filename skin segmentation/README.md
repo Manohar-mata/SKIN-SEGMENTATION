@@ -23,12 +23,12 @@
  - Finally the major challenge I have faced and not at done with that challenges is "the skin related colors like red,brown,yellow are also detecting in place of skin"
 
 <p float="left">
-  <img src="https://github.com/Manohar-mata/SKIN-SEGMENTATION/blob/main/skin%20segmentation/docs/208T1A05F9.jpg" />
-  <img src="https://github.com/Manohar-mata/SKIN-SEGMENTATION/blob/main/skin%20segmentation/docs/manu-output.png" />
+  <img src="https://github.com/Manohar-mata/SKIN-SEGMENTATION/blob/main/skin%20segmentation/docs/208T1A05F9.jpg" width="33%" />
+  <img src="https://github.com/Manohar-mata/SKIN-SEGMENTATION/blob/main/skin%20segmentation/docs/manu-output.png" width="33%" />
 </p>
 
 
 <p float="left">
-  <img src="https://github.com/Manohar-mata/SKIN-SEGMENTATION/blob/main/skin%20segmentation/docs/manu1.jpg" />
-  <img src="https://github.com/Manohar-mata/SKIN-SEGMENTATION/blob/main/skin%20segmentation/docs/manu1-output.png" />
+  <img src="https://github.com/Manohar-mata/SKIN-SEGMENTATION/blob/main/skin%20segmentation/docs/manu1.jpg" width="33%" />
+  <img src="https://github.com/Manohar-mata/SKIN-SEGMENTATION/blob/main/skin%20segmentation/docs/manu1-output.png" width="33%" />
 </p>
