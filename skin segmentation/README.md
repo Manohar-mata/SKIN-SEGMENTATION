@@ -24,7 +24,7 @@
 
 <p float="left">
   <img src="https://github.com/Manohar-mata/SKIN-SEGMENTATION/blob/main/skin%20segmentation/docs/208T1A05F9.jpg" />
-  <img src="" />
+  <img src="https://github.com/Manohar-mata/SKIN-SEGMENTATION/blob/main/skin%20segmentation/docs/manu-output.png" />
 </p>
 
 
