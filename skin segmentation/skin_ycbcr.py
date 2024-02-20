@@ -80,7 +80,6 @@ def calcMinMaxHist(yValues: int, iBins: list, vect: list) -> None:
     vect[0] = 255
     vect[1] = 0
 
-#  TODO: this function takes 90% of execution time, improve it
 #  Computation of the vertices (Y0,CrMax) and (Y1,CrMax) of the trapezium in the YCr subspace
 #  Computation of the vertices (Y2,CbMin) and (Y3,CbMin) of the trapezium in the YCb subspace
 def calculateValueMinMaxY(image, val: float, hist, canal: int) -> list:
@@ -167,7 +166,6 @@ def calculateHist2(plane1, plane2):
   return cv2.calcHist([img], [0, 1], None, [256, 256], [0, 256, 0, 256])
 
 
-#  TODO: improve precision with more consistent data types
 def skin_detect(image_in: str, image_out: str):
   '''
   Detect skin pixels in `image_in` and save the result into a 
@@ -281,8 +279,7 @@ def skin_detect(image_in: str, image_out: str):
   np.putmask(HCr, (Y >= 0) & (Y < Y0), (CrMin + hCr * (np.float64(Y) / Y0)).astype(np.uint8))
   np.putmask(HCr, (Y >= Y0) & (Y < Y1), CrMax)
   np.putmask(HCr, (Y >= Y1) & (Y<= 255), (CrMin + hCr * ((np.float64(Y) - 255) / (Y1 - 255))).astype(np.uint8))
-
-  #  TODO: use cleaner approach to perform color subtraction / saturated subtraction
+  
   #  Calculate HCb
   #  arr[arr - subtract_me < threshold] = threshold
   HCb = np.zeros_like(Y)
