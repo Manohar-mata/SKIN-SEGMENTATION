@@ -9,7 +9,6 @@
 - Input image RGB to YCbCr
 - Crmax and Cbmin computation
 - Image-wise computation of the correlation rules parameters
-- Image-wise correlation rules check
 
 ## 2. Observations on Algorithm
  
