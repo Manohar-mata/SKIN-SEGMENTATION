@@ -36,7 +36,7 @@ def calcMinMaxHist(yValues: int, iBins: list, vect: list) -> None:
   flag = 0
   maxVal = 0
   percentage = 0
-  app = [0] * bins #  TODO: rewrite these assignments in a more pythonic way
+  app = [0] * bins
   for i in range(yValues[0]):
     app[i] = 0
   for i in range(1, yValues[0]):
