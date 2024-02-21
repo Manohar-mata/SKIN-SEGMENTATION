@@ -167,6 +167,11 @@ def calculateHist2(plane1, plane2):
 
 
 def skin_detect(image_in: str, image_out: str):
+  imagein = Image.open(image_in)
+  output = remove(imagein)
+  output.save(image_out)
+  image_in = image_out
+
   '''
   Detect skin pixels in `image_in` and save the result into a 
   file named like `image_out`  
