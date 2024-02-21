@@ -2,7 +2,9 @@ import cv2
 import numpy as np
 from math import ceil
 import sys
-
+from rembg import remove
+import easygui
+from PIL import Image
 
 bins = 256
 tolCr = 1
@@ -167,26 +169,17 @@ def calculateHist2(plane1, plane2):
 
 
 def skin_detect(image_in: str, image_out: str):
-  #remove background in a image
+  #Remove background in a image
   imagein = Image.open(image_in)
   output = remove(imagein)
   output.save(image_out)
   image_in = image_out
 
-  
-  image = cv2.imread('image_in')
-
-  # Increase the brightness by 50
-  new_image = cv2.addWeighted(image, 1.5, 0, 0, 0)
-
-  # Increase the contrast by 20
-  new_image = cv2.addWeighted(image, 1.0, 0, 20, 0)
-  cv2.imwrite(image_out,new_image)
-
   '''
   Detect skin pixels in `image_in` and save the result into a 
   file named like `image_out`  
   '''
+
   CrMin = float(133)
   CrMax = float(183)
   CbMin = float(77)
