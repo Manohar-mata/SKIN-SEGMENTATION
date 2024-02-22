@@ -3,7 +3,6 @@ import numpy as np
 from math import ceil
 import sys
 from rembg import remove
-import easygui
 from PIL import Image
 
 bins = 256
